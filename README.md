@@ -1,12 +1,27 @@
-# React + Vite
+# 🧠 Netzy — Your AI Assistant
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Netzy** is a smart, AI-powered assistant built using React. It helps users with everyday questions, ideas, and prompts — packaged in a sleek, modern interface. Netzy is currently frontend-only and integrates directly with APIs like OpenAI or Gemini.
 
-Currently, two official plugins are available:
+💬 **Chat with Netzy**: [Click here to use it live! 🚀](https://netzy-ai-assistant.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ⚡ **Real-time Chat** — Type your question and get instant AI-generated responses
+- 🧠 **Smart Conversations** — Understands context and gives intelligent replies
+- 🎨 **Responsive UI** — Built with React and styled for desktop + mobile use
+- 🔌 **API Integrated** — Easily connect with OpenAI, Gemini, or other models
+
+---
+
+## 🛣️ Coming Soon
+
+We're actively developing more features for Netzy. Here are some planned updates:
+
+- 📚 **Chat History** — View, search, and revisit past conversations
+- ⚙️ **Settings Panel** — Customize assistant behavior, tone, and language
+- 💾 **Local Storage** — Save preferences and session data on your browser
+- 🧩 **Voice Input (optional)** — Use speech-to-text for input (future roadmap)
+
+---
