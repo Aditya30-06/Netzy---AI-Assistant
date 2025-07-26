@@ -1,0 +1,122 @@
+/* sidebar.css */
+
+.sidebar {
+  height: 100vh;
+  background-color: #f9f9fb;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 16px 12px;
+  border-right: 1px solid #e0e0e0;
+  font-family: 'Segoe UI', sans-serif;
+  box-shadow: 1px 0 5px rgba(0, 0, 0, 0.03);
+  transition: width 0.3s ease;
+  width: 60px; /* collapsed width */
+}
+
+.sidebar.expanded {
+  width: 200px; /* expanded width */
+}
+
+/* Top Section */
+.top {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.menu-icon {
+  width: 28px;
+  cursor: pointer;
+  align-self: flex-start;
+}
+
+/* New Chat */
+.new-chat {
+  display: flex;
+  align-items: center;
+  /* background-color: #e8f0fe; */
+  padding: 6px;
+  padding-right: 3px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s;
+  gap: 8px;
+}
+
+.new-chat:hover {
+  background-color: #d2e3fc;
+}
+
+.new-chat img {
+  width: 18px;
+}
+
+.new-chat p {
+  margin: 0;
+  font-weight: 500;
+  color: #1a73e8;
+  white-space: nowrap;
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+/* Recents */
+.recents {
+  flex-grow: 1;
+}
+
+.recent-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #5f6368;
+  margin-bottom: 12px;
+  padding-left: 6px;
+}
+
+.recent-entry {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 10px;
+  border-radius: 6px;
+  transition: background 0.2s;
+  cursor: pointer;
+}
+
+.recent-entry:hover {
+  background-color: #f1f3f4;
+}
+
+.recent-entry img {
+  width: 18px;
+}
+
+.recent-entry p {
+  margin: 0;
+  font-size: 14px;
+  color: #202124;
+  white-space: nowrap;
+  animation: fadeIn 1.5s ;
+}
+
+/* Bottom Section */
+.bottom {
+  padding-top: 16px;
+  border-top: 1px solid #e0e0e0;
+}
+
+.bottom-item {
+  margin-bottom: 10px;
+}
+
+/* Optional: hide <p> when collapsed with JS class toggle */
+.sidebar:not(.expanded) p {
+  display: none;
+}
+
+@media (max-width:600px){
+  .sidebar{
+    display: none;
+  }
+}
